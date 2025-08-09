@@ -46,8 +46,8 @@ docker-compose up -d
 
 2. **Access the application:**
 - Frontend: http://localhost
-- Backend API: http://localhost:8080
-- Health checks: http://localhost/health and http://localhost:8080/health
+- Backend API: http://localhost:5173
+- Health checks: http://localhost/health and http://localhost:5173/health
 
 3. **Login with demo accounts:**
 - Admin: `admin` / `admin123`
@@ -73,7 +73,7 @@ npm run dev
 
 3. **Access:**
 - Frontend: http://localhost:3000
-- Backend: http://localhost:8080
+- Backend: http://localhost:5173
 
 ## API Documentation
 
