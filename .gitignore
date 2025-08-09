@@ -1,0 +1,63 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Backend (Go)
+backend/bin/
+backend/data/
+backend/logs/
+backend/*.db
+backend/*.log
+backend/main
+backend/server
+
+# Frontend (Node.js)
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.next/
+frontend/out/
+
+# Environment Files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker
+*.tar
+
+# Testing
+coverage/
+*.test
+*.coverage
+
+# Temporary Files
+tmp/
+temp/
+
+# Authentication and Sensitive Files
+cookies.txt
+backend/cookies.txt
+frontend/cookies.txt
+
+# Runtime Files
+*.pid
+
+# Testing directory with separate project
+testing/
